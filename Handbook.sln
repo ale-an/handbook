@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{1D262F70-629D-4D36-853B-7263EF40CFF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{189AB615-E981-4064-BF31-07BDC78BC1C9}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Storage", "Storage", "{BE07821E-C3E1-40F2-9304-134C597247C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstractions", "Storage\Abstractions\Abstractions.csproj", "{B37D032B-D43F-4516-BA84-FC48EDD17C3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Storage\Models\Models.csproj", "{35CA7C89-5C7E-44BE-ABAD-998EEE5FF0B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Storage\Logic\Logic.csproj", "{C83D157E-CD45-4CFB-AD28-B0FE5D278B91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstractions", "Abstractions\Abstractions.csproj", "{43D2515E-FBE0-4878-9668-59589CE94DBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{C9E677C2-B9E2-4C10-981F-7C9AC54F7BC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{E809E8D2-976C-4E4C-9CFE-4E9ED102100B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D262F70-629D-4D36-853B-7263EF40CFF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D262F70-629D-4D36-853B-7263EF40CFF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D262F70-629D-4D36-853B-7263EF40CFF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D262F70-629D-4D36-853B-7263EF40CFF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B37D032B-D43F-4516-BA84-FC48EDD17C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B37D032B-D43F-4516-BA84-FC48EDD17C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B37D032B-D43F-4516-BA84-FC48EDD17C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B37D032B-D43F-4516-BA84-FC48EDD17C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35CA7C89-5C7E-44BE-ABAD-998EEE5FF0B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35CA7C89-5C7E-44BE-ABAD-998EEE5FF0B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35CA7C89-5C7E-44BE-ABAD-998EEE5FF0B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35CA7C89-5C7E-44BE-ABAD-998EEE5FF0B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C83D157E-CD45-4CFB-AD28-B0FE5D278B91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C83D157E-CD45-4CFB-AD28-B0FE5D278B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C83D157E-CD45-4CFB-AD28-B0FE5D278B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C83D157E-CD45-4CFB-AD28-B0FE5D278B91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43D2515E-FBE0-4878-9668-59589CE94DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43D2515E-FBE0-4878-9668-59589CE94DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43D2515E-FBE0-4878-9668-59589CE94DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43D2515E-FBE0-4878-9668-59589CE94DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9E677C2-B9E2-4C10-981F-7C9AC54F7BC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9E677C2-B9E2-4C10-981F-7C9AC54F7BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9E677C2-B9E2-4C10-981F-7C9AC54F7BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9E677C2-B9E2-4C10-981F-7C9AC54F7BC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E809E8D2-976C-4E4C-9CFE-4E9ED102100B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E809E8D2-976C-4E4C-9CFE-4E9ED102100B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E809E8D2-976C-4E4C-9CFE-4E9ED102100B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E809E8D2-976C-4E4C-9CFE-4E9ED102100B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B37D032B-D43F-4516-BA84-FC48EDD17C3F} = {BE07821E-C3E1-40F2-9304-134C597247C8}
+		{35CA7C89-5C7E-44BE-ABAD-998EEE5FF0B1} = {BE07821E-C3E1-40F2-9304-134C597247C8}
+		{C83D157E-CD45-4CFB-AD28-B0FE5D278B91} = {BE07821E-C3E1-40F2-9304-134C597247C8}
+	EndGlobalSection
+EndGlobal
