@@ -1,3 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Logic;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Service.Registrations;
 
-Console.WriteLine("Hello, World!");
+var host = Host.CreateDefaultBuilder(args)
+    .ConfigureServices((builderContext, services) =>
+    {
+        services.AddStorage(builderContext.Configuration)
+            .AddServices()
+            .AddSingleton<ClientService>();
+    })
+    .Build();
+
+var clientService = host.Services.GetRequiredService<ClientService>();
+
+clientService.Execute();
